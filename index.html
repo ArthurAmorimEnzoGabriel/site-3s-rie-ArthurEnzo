@@ -6,46 +6,6 @@
 <body>
   <h1>Olá, mundo!</h1>
   <p>Esse é o nosso primeiro site publicado na internet</p>
-  <head>
-    <meta charset="UTF-8">
-    <title>Sorteador de Número</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        #resultado {
-            margin-top: 20px;
-            font-size: 24px;
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-
-    <h1>Sorteador de Número Aleatório</h1>
-
-    <button onclick="sortearNumero()">Sortear Número</button>
-
-    <div id="resultado">Clique no botão para sortear</div>
-
-    <script>
-        function sortearNumero() {
-            // Gera número aleatório entre 1 e 100
-            var numero = Math.floor(Math.random() * 100) + 1;
-
-            // Exibe o resultado
-            document.getElementById("resultado").innerText = "Número sorteado: " + numero;
-        }
-    </script>
 
 </body>
 </html>
